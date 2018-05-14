@@ -1,0 +1,18 @@
+html
+    head
+        title Welcome on my awesome website!
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        main
+            h1.txt-a-c Cliquez sur une image
+            div#mainApp
+                img(src="img/paper.png", data-choice="paper")
+                img(src="img/scissors.png", data-choice="scissors")
+                img(src="img/rock.png", data-choice="rock")
+                img(src="img/lizzard.png", data-choice="lizzard")
+                img(src="img/spock.png", data-choice="spock")
+
+            script(src="js/app.js")
+
+            form(method="POST", action="/result").hidden#form
+                input(type="hidden", name="choice")
