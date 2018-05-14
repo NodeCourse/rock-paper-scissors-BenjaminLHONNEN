@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
     res.render('homepage');
 });
 
-app.post('/result', (req, res) => {
-    const {choice} = req.body;
+app.get('/result/:choice', (req, res) => {
+    const choice = req.params.choice;
 
     let userChoice = choiceParser(choice);
     let appChoice = randomAppChoice(choice);
@@ -111,7 +111,6 @@ function doesLizzardWin(compareEl) {
     }
 }
 
-
 function randomAppChoice() {
     const possibleChoice = ["paper", "scissors", "rock", "spock", "lizzard"];
     return choiceParser(randomItem(possibleChoice));
@@ -135,6 +134,7 @@ function isPaper(choice) {
         return false;
     }
 }
+
 function isRock(choice) {
     if (choice === "rock") {
         return true;
@@ -142,6 +142,7 @@ function isRock(choice) {
         return false;
     }
 }
+
 function isScissors(choice) {
     if (choice === "scissors") {
         return true;
@@ -149,6 +150,7 @@ function isScissors(choice) {
         return false;
     }
 }
+
 function isSpock(choice) {
     if (choice === "spock") {
         return true;
@@ -156,6 +158,7 @@ function isSpock(choice) {
         return false;
     }
 }
+
 function isLizzard(choice) {
     if (choice === "lizzard") {
         return true;

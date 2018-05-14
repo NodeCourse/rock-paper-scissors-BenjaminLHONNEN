@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eda4573-17bb-49ec-8c00-ddaf4315149c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/homepage.pug" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/result.pug" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/views/homepage.pug" afterPath="$PROJECT_DIR$/views/homepage.pug" />
+      <change beforePath="$PROJECT_DIR$/views/result.pug" afterPath="$PROJECT_DIR$/views/result.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,9 +26,23 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="238">
+                  <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+                  <folding>
+                    <element signature="n#!!block;n#doesFirstChoiceWin#0" expanded="false" />
+                    <element signature="n#!!block;n#doesScissorsWin#0" expanded="false" />
+                    <element signature="n#!!block;n#doesPaperWin#0" expanded="false" />
+                    <element signature="n#!!block;n#doesRockWin#0" expanded="false" />
+                    <element signature="n#!!block;n#doesSpockWin#0" expanded="false" />
+                    <element signature="n#!!block;n#doesLizzardWin#0" expanded="false" />
+                    <element signature="n#!!block;n#randomAppChoice#0" expanded="false" />
+                    <element signature="n#!!block;n#choiceParser#0" expanded="false" />
+                    <element signature="n#!!block;n#isPaper#0" expanded="false" />
+                    <element signature="n#!!block;n#isRock#0" expanded="false" />
+                    <element signature="n#!!block;n#isScissors#0" expanded="false" />
+                    <element signature="n#!!block;n#isSpock#0" expanded="false" />
+                    <element signature="n#!!block;n#isLizzard#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -38,8 +50,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="331">
-                  <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -52,8 +64,8 @@
           <file leaf-file-name="homepage.pug" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/homepage.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -62,8 +74,8 @@
           <file leaf-file-name="result.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/result.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+                <state relative-caret-position="463">
+                  <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -93,9 +105,9 @@
         <option value="$PROJECT_DIR$/views/result.js" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/views/result.pug" />
         <option value="$PROJECT_DIR$/views/homepage.pug" />
-        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -163,12 +175,6 @@
             <path>
               <item name="rock-paper-scissors-BenjaminLHONNEN" type="b2602c69:ProjectViewProjectNode" />
               <item name="rock-paper-scissors-BenjaminLHONNEN" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rock-paper-scissors-BenjaminLHONNEN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rock-paper-scissors-BenjaminLHONNEN" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -217,12 +223,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526287904258</updated>
-      <workItem from="1526287905520" duration="6566000" />
+      <workItem from="1526287905520" duration="7205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6566000" />
+    <option name="totallyTimeSpent" value="7205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -294,32 +300,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/result.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/homepage.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!block;n#doesFirstChoiceWin#0" expanded="false" />
+            <element signature="n#!!block;n#doesScissorsWin#0" expanded="false" />
+            <element signature="n#!!block;n#doesPaperWin#0" expanded="false" />
+            <element signature="n#!!block;n#doesRockWin#0" expanded="false" />
+            <element signature="n#!!block;n#doesSpockWin#0" expanded="false" />
+            <element signature="n#!!block;n#doesLizzardWin#0" expanded="false" />
+            <element signature="n#!!block;n#randomAppChoice#0" expanded="false" />
+            <element signature="n#!!block;n#choiceParser#0" expanded="false" />
+            <element signature="n#!!block;n#isPaper#0" expanded="false" />
+            <element signature="n#!!block;n#isRock#0" expanded="false" />
+            <element signature="n#!!block;n#isScissors#0" expanded="false" />
+            <element signature="n#!!block;n#isSpock#0" expanded="false" />
+            <element signature="n#!!block;n#isLizzard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/result.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/homepage.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
 }
-#mainApp img{
+#mainApp a{
     max-width: 33%;
     background-color: #111111;
     border-radius: 100%;

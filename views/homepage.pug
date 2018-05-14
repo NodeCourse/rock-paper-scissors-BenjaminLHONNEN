@@ -6,13 +6,13 @@ html
         main
             h1.txt-a-c Cliquez sur une image
             div#mainApp
-                img(src="img/paper.png", data-choice="paper")
-                img(src="img/scissors.png", data-choice="scissors")
-                img(src="img/rock.png", data-choice="rock")
-                img(src="img/lizzard.png", data-choice="lizzard")
-                img(src="img/spock.png", data-choice="spock")
-
-            script(src="js/app.js")
-
-            form(method="POST", action="/result").hidden#form
-                input(type="hidden", name="choice")
+                a(href="/result/paper")
+                    img(src="img/paper.png", data-choice="paper")
+                a(href="/result/scissors")
+                    img(src="img/scissors.png", data-choice="scissors")
+                a(href="/result/rock")
+                    img(src="img/rock.png", data-choice="rock")
+                a(href="/result/lizzard")
+                    img(src="img/lizzard.png", data-choice="lizzard")
+                a(href="/result/spock")
+                    img(src="img/spock.png", data-choice="spock")
