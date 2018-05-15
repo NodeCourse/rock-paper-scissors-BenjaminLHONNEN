@@ -8,27 +8,9 @@ html
             div.resultDisplay
                 div
                     h3 Vous
-                    if obj.userChoice.isPaper
-                        img(src = "../img/paper.png")
-                    else if obj.userChoice.isScissors
-                        img(src="../img/scissors.png")
-                    else if obj.userChoice.isRock
-                        img(src="../img/rock.png")
-                    else if obj.userChoice.isSpock
-                        img(src="../img/spock.png")
-                    else if obj.userChoice.isLizzard
-                        img(src="../img/lizzard.png")
+                    img(src = "../" + obj.user.imgSrc)
                 div
                     h3 App
-                    if obj.appChoice.isPaper
-                        img(src = "../img/paper.png")
-                    else if obj.appChoice.isScissors
-                        img(src="../img/scissors.png")
-                    else if obj.appChoice.isRock
-                        img(src="../img/rock.png")
-                    else if obj.appChoice.isSpock
-                        img(src="../img/spock.png")
-                    else if obj.appChoice.isLizzard
-                        img(src="../img/lizzard.png")
+                    img(src = "../" + obj.app.imgSrc)
             div.txt-a-c
                 a(href="/") play again
