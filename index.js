@@ -36,27 +36,20 @@ app.get('/', (req, res) => {
 app.get('/result/:choice', (req, res) => {
     const choice = req.params.choice;
     if (possibleChoice.indexOf(choice) !== -1) {
-        let appChoice = randomAppChoice(choice);
-
-        console.log(appChoice);
-
+        let appChoice = randomAppChoice();
         let obj = {
             result: doesFirstChoiceWin(choice, appChoice),
             app: dataObject[appChoice],
             user: dataObject[choice]
         };
-        console.log(obj);
         res.render('result', {obj: obj});
     }
 });
 
 function doesFirstChoiceWin(choice1, choice2) {
-    console.log(dataObject);
-    console.log(dataObject[choice1]);
-
-    if (dataObject[choice1]['winAgaints'].indexOf(choice2)) {
+    if (dataObject[choice1]['winAgaints'].indexOf(choice2) !== -1) {
         return "Gagné !"
-    } else if (dataObject[choice2]['winAgaints'].indexOf(choice1)) {
+    } else if (dataObject[choice2]['winAgaints'].indexOf(choice1) !== -1) {
         return "Perdu !"
     } else {
         return "Egalité !"
