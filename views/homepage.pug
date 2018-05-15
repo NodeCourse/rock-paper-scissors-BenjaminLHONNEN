@@ -1,0 +1,11 @@
+html
+    head
+        title BenJ
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        main
+            h1.txt-a-c Cliquez sur une image
+            div#mainApp
+                for item in data
+                    a(href="/result/"+item.id)
+                        img(src=item.imgSrc)

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "rock",
+    "imgSrc":"img/rock.png",
+    "winAgaints":["scissors","lizzard"]
+  },
+  {
+    "id": "paper",
+    "imgSrc":"img/paper.png",
+    "winAgaints":["rock","spock"]
+  },
+  {
+    "id": "scissors",
+    "imgSrc":"img/scissors.png",
+    "winAgaints":["paper","lizzard"]
+  },
+  {
+    "id": "spock",
+    "imgSrc":"img/spock.png",
+    "winAgaints":["scissors","rock"]
+  },
+  {
+    "id": "lizzard",
+    "imgSrc":"img/lizzard.png",
+    "winAgaints":["spock","paper"]
+  }
+]

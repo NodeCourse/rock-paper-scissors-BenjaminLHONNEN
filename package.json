@@ -1,0 +1,24 @@
+{
+  "name": "rock-paper-scissors-benjaminlhonnen",
+  "version": "1.0.0",
+  "description": "Build a rock-paper-scissors game composed of two pages.\r On the first page, the user should be able to select an option (whether rock, paper or scissors).\r When the user choose an option, he should be redirected to another page.\r On that page he should see the option he picked, the option the computer picked and if he won, lost or if it's a draw.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeCourse/rock-paper-scissors-BenjaminLHONNEN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NodeCourse/rock-paper-scissors-BenjaminLHONNEN/issues"
+  },
+  "homepage": "https://github.com/NodeCourse/rock-paper-scissors-BenjaminLHONNEN#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "random-item": "^1.0.0"
+  }
+}

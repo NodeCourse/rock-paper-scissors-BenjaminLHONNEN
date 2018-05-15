@@ -1,0 +1,16 @@
+html
+    head
+        title BenJ
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        main
+            h1.txt-a-c #{obj.result}
+            div.resultDisplay
+                div
+                    h3 Vous
+                    img(src = "../" + obj.user.imgSrc)
+                div
+                    h3 App
+                    img(src = "../" + obj.app.imgSrc)
+            div.txt-a-c
+                a(href="/") play again

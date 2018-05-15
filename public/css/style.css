@@ -1,0 +1,36 @@
+
+#mainApp{
+    display: flex;
+    justify-content: center;
+}
+#mainApp a{
+    max-width: 33%;
+    background-color: #111111;
+    border-radius: 100%;
+    padding: 3px;
+    margin: 3px;
+}
+.hidden{
+    display: none;
+}
+.resultDisplay{
+    display: flex;
+    justify-content: center;
+}
+.resultDisplay div{
+    width: 50%;
+    text-align: center;
+}
+.resultDisplay div img{
+    background-color: #111111;
+    border-radius: 100%;
+    padding: 3px;
+    margin: 3px;
+}
+.txt-a-c{
+    text-align: center;
+}
+
+a,a:hover,a:visited{
+    color: #222222;
+}
